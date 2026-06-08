@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pembaca Komik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-baca">
+        <a href="index.html" class="tombol-kembali"><- Kembali ke Home</a>
+        <h2 id="judul-komik">Memuat Bab...</h2>
+        
+        <!-- Pilihan Dropdown Chapter -->
+        <select id="pilih-chapter">
+            <option value="">Pilih Chapter</option>
+        </select>
+
+        <!-- Wadah Gambar Lembaran Komik -->
+        <div id="wadah-gambar"></div>
+    </div>
+
+    <!-- Memanggil file JavaScript terpisah -->
+    <script src="script-baca.js"></script>
+</body>
+</html>
