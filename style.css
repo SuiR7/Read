@@ -1,0 +1,17 @@
+body { font-family: 'Segoe UI', sans-serif; background: #0f0f10; color: #fff; margin: 0; padding: 20px; }
+h1, h2 { text-align: center; color: #ff4757; }
+.tombol-kembali { color: #ff4757; text-decoration: none; font-weight: bold; display: inline-block; margin-bottom: 10px; }
+
+/* Grid Katalog */
+.grid-komik { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 15px; max-width: 1200px; margin: 20px auto; padding: 0 10px; }
+
+/* Kartu Komik */
+.kartu { background: #1c1c1e; border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; text-decoration: none; color: #ffffff; box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: transform 0.2s; }
+.kartu:hover { transform: translateY(-5px); }
+.kartu img { width: 100%; height: 230px; object-fit: cover; background-color: #2c2c2e; }
+.kartu p { margin: 0; padding: 10px; font-size: 13px; font-weight: 600; text-align: center; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+/* Halaman Baca Vertikal */
+.container-baca { max-width: 800px; margin: 0 auto; text-align: center; }
+.halaman-komik { width: 100%; display: block; margin: 0; padding: 0; border: none; }
+select { padding: 10px 20px; background: #1c1c1e; color: white; border: 1px solid #ff4757; border-radius: 5px; margin-bottom: 25px; font-size: 16px; cursor: pointer; }
